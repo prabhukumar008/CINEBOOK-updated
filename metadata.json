@@ -1,0 +1,8 @@
+{
+  "name": "CineBook",
+  "description": "Dark-cinematic movie ticket booking platform with interactive seat selection, demo payments, QR tickets, LocalStorage persistence, and an admin management dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

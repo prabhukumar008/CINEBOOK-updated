@@ -1,0 +1,53 @@
+@media (max-width: 991.98px) {
+  .cb-hero {
+    min-height: 440px;
+  }
+
+  .cb-hero-scrim {
+    background: linear-gradient(
+      180deg,
+      rgba(7, 9, 15, 0.35) 0%,
+      rgba(7, 9, 15, 0.92) 68%,
+      rgba(7, 9, 15, 0.98) 100%
+    );
+  }
+}
+
+@media (max-width: 767.98px) {
+  .cb-hero {
+    min-height: 410px;
+    border-radius: var(--cb-radius-md);
+  }
+
+  .cb-carousel-row {
+    grid-auto-columns: minmax(175px, 195px);
+    gap: 0.9rem;
+  }
+
+  .cb-seat-scroll {
+    overflow-x: auto;
+    padding-bottom: 0.75rem;
+  }
+
+  .cb-seat-grid-inner {
+    min-width: 480px;
+  }
+
+  .cb-seat-btn {
+    width: 30px;
+    height: 28px;
+    font-size: 0.65rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cb-movie-card,
+  .cb-poster-img,
+  .cb-seat-btn,
+  .cb-btn-primary,
+  .cb-btn-outline,
+  .cb-skeleton {
+    transition: none !important;
+    animation: none !important;
+  }
+}
